@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { AddtodoitemComponent } from './addtodoitem.component';
+
+describe('AddtodoitemComponent', () => {
+  let component: AddtodoitemComponent;
+  let fixture: ComponentFixture<AddtodoitemComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ AddtodoitemComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(AddtodoitemComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

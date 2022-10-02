@@ -1,0 +1,9 @@
+<div> 
+    <div *ngFor="let todoItem of todoList">
+        <div class="todo-item-container">
+            <span class="cross-icon" (click)="deleteTodo(todoItem.id)"></span>
+            <span class="heading"><b>Title: </b><br></span><div> {{todoItem.todoTitle}}</div>
+            <span class="heading"><b>Description: </b><br></span><div>{{todoItem.todoDescription}}</div>            
+        </div>
+    </div>
+</div>

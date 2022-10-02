@@ -1,0 +1,13 @@
+<div>
+    <div class="add-todo-container">
+        <form [formGroup]="todoForm" (ngSubmit)="submitForm()">
+            <div>
+                <input type="text" class="title" formControlName="todoTitle" placeholder="Add here to todo title">
+            </div>
+            <div>
+                <input type="text" class="description" formControlName="todoDescription" placeholder="Add here to todo description">
+            </div>
+            <button class="submit-button" type="submit">Add to List</button>
+        </form>
+    </div>
+</div>

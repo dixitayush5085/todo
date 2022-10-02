@@ -1,0 +1,35 @@
+.add-todo-container {
+    input[type="text" i] {
+        padding: 0px 2px;
+        outline-style: none;
+    }
+
+    .title {
+        width: 30%;
+        height: 30px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid;
+    }
+
+    .description {
+        width: 30%;
+        height: 30px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid;
+    }
+
+    .submit-button {
+        border: none;
+        background: tomato;
+        padding: 10px 12px;
+        border-radius: 10px;
+        color: white;
+        font-size: 12px;
+        font-weight: bolder;
+        margin-top: 10px;
+    }
+}

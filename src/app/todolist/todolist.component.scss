@@ -1,0 +1,25 @@
+.todo-item-container {
+    position: relative;
+    background: grey;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 12px;
+    margin: 10px 0px;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    .heading {
+        font-size: 12px;
+    }
+    .cross-icon {
+        position: absolute;
+        right: 10px;
+        font-size: 30px;
+        top: 5px;
+        cursor: pointer;
+        &:after{
+            display: inline-block;
+            content: "\00d7"; /* This will render the 'X' */
+          }
+    }
+}
